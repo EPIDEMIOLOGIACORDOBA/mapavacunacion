@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Operativos de Vacunación</title>
+    <style>
+        body {
+            background-color: #87CEEB; /* Celeste */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #333;
+        }
+        .map-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>En el siguiente mapa se muestra la ubicación de los operativos en los que participó el equipo de vacunación de la repartición de epidemiología. Los operativos están organizados por fechas, y como información adicional, se detalla la cantidad de personas vacunadas y las dosis aplicadas en cada uno de ellos.</h1>
+    
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1Galt2fd96ynz0AEQqNddzw9P7-AwpQg&ehbc=2E312F" width="960" height="600"></iframe>
+    </div>
+</body>
+</html>
